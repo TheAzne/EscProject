@@ -1,0 +1,813 @@
+body {
+  display: block;
+  max-width: 1340px;
+  max-height: 1000px;
+  margin: auto;
+}
+
+@media screen and (min-width: 760px) {
+  header {
+    background-color: #011827;
+    padding: 40px;
+  }
+  .header {
+    display: flex;
+    justify-content: start;
+    position: relative;
+  }
+  .escgrupp {
+    display: none;
+  }
+  .escape {
+    position: relative;
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 0px;
+    margin: 20px;
+    left: 130px;
+    top: 5px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+  }
+  .esc {
+    display: flex;
+    justify-content: center;
+    border: 6px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 17px;
+    width: 128px;
+    height: 82px;
+    background-color: #011827;
+    position: absolute;
+    left: 30px;
+    top: 15px;
+    padding: 20px;
+  }
+  .esc img {
+    display: block;
+    position: relative;
+    color: white;
+    right: 15px;
+    top: 15px;
+  }
+  /*-------------Footer--------------------*/
+  .footer {
+    padding: 2px;
+    background-color: #011827;
+  }
+
+  .footer ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 95px;
+  }
+
+  .footer li {
+    list-style-type: none;
+    cursor: pointer;
+  }
+  .footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: block;
+    padding-bottom: 0.5rem;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    text-align: center;
+  }
+
+  .footer a:hover {
+    color: #8acfe6;
+  }
+  /*-------------HERO--------------------*/
+  .main figure {
+    margin: 0px;
+    padding: 0;
+  }
+
+  .main figure img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: top;
+  }
+  /*-------------challenge--------------------*/
+  .challenge {
+    background-color: white;
+  }
+
+  .challenge ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .challenge li {
+    list-style-type: none;
+  }
+  .challenge a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    text-decoration: none;
+    box-sizing: border-box;
+    height: 66px;
+    width: 308px;
+    border-radius: 4px;
+    bottom: 55px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .online {
+    background-color: #e3170a;
+    color: rgb(255, 255, 255);
+  }
+  .onsite {
+    background-color: #8acfe6;
+    color: black;
+  }
+  /*-------------quotes and picture--------------------*/
+
+  .q1 {
+    display: flex;
+    position: relative;
+    bottom: 20px;
+    justify-content: center;
+    justify-content:flex-start;
+    padding-left: 100px;
+    margin-top: 110px;
+  
+  }
+  .q2 {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    padding-right:300px;
+   
+   
+  }
+  .quote1 {
+    display: flex;
+    align-self: flex-start;
+    width: 407.54px;
+    height: 129px;
+
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+  }
+ 
+  .quote2 {
+ display: flex;
+ justify-content: center;
+ text-align: right;
+ position: relative;
+ left: 380px;
+bottom: 220px;  
+    width: 407.54px;
+    height: 139px;
+
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .cite1 {
+    display: flex;
+    margin-top: -20px;
+    
+    width: 284.29px;
+    height: 42px;
+    
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .cite2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 270px;
+    left: 410px;
+    
+    width: 284.29px;
+    height: 42px;
+   
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .name3 {
+
+    display: none;
+  }
+  .img1 {
+    display: flex;
+    position: relative;
+    bottom: 20px;
+    justify-content: start;
+    padding: 10px;
+    width: 96.26px;
+    height: 107px;
+  }
+
+  .img2 {
+    display: flex;
+
+    position: relative;
+    bottom: 210px;
+    left: 400px;
+
+    height: 107px;
+  }
+  /*-------------Popular challange (text)----*/
+  .popular {
+    display: flex;
+    position: relative;
+    justify-content: center;
+  }
+
+  .popular .pop {
+    display: flex;
+    position: relative;
+    bottom: 150px;
+    width: 464px;
+    height: 42px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+  }
+
+  /* ------------------Cards------------------*/
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 550px;
+    bottom: 100px;
+  }
+  .cardpic1,
+  .cardpic2,
+  .cardpic3 {
+    display: flex;
+    justify-content: space-between;
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    width: 363px;
+    height: 446px;
+  }
+
+  .cardpic1 img,
+  .cardpic2 img,
+  .cardpic3 img {
+    display: flex;
+    justify-content: space-between;
+    width: 363px;
+    height: 219px;
+    border-radius: 8px 8px 0px 0px;
+  }
+  .cards .title {
+    position: relative;
+    width: 308px;
+    height: 33px;
+    left: 60px;
+    bottom: 240px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+  }
+
+  .stars1 img,
+  .stars2 img,
+  .stars3 img {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    left: 60px;
+    bottom: 265px;
+  }
+  .parti1,
+  .parti2,
+  .parti3 {
+    position: relative;
+    width: 159px;
+    height: 16px;
+    left: 230px;
+    bottom: 300px;
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+  }
+
+  .cardText {
+    position: relative;
+    width: 328px;
+    height: 80px;
+    left: 55px;
+    bottom: 290px;
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .book1,
+  .book2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 80px;
+    bottom: 270px;
+  }
+
+  .book3{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 80px;
+    bottom: 285px;
+  }
+
+  .bookText {
+    display: flex;
+    box-sizing: border-box;
+    height: 44px;
+    width: 180px;
+    border-radius: 4px;
+    background-color: red;
+    padding-top: 15px;
+    padding-left: 30px;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+  }
+
+  /* ------------------Challenge2------------------*/
+  .challenge2 {
+    background-color: white;
+   
+  }
+
+  .challenge2 ul {
+   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .challenge2 li {
+    list-style-type: none;
+  }
+  .challenge2 a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    text-decoration: none;
+    box-sizing: border-box;
+    height: 66px;
+    width: 308px;
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 100%;
+    align-items: center;
+    bottom: 70px;
+  }
+  .online2 {
+    background-color: #e3170a;
+    color: rgb(255, 255, 255);
+  }
+  .onsite2 {
+    background-color: #8acfe6;
+    color: black;
+  }
+  /* ------------------Story------------------*/
+
+  .story {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: 500px;
+    width: 1280;
+    top: 10px;
+    background-color: #011827;
+  }
+
+  .storyText {
+    display: block;
+    position: relative;
+    width:  632px;
+    height: 169px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    left: 500px;
+    top: 30px;
+    text-align: center;
+  }
+
+  .readStory {
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    box-sizing: border-box;
+    width: 1280px;
+  
+    right: 280px;
+    top: 300px;
+    
+  }
+
+  .readStory .read{
+    text-decoration: none;
+    padding: 18px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    box-sizing: border-box;
+    height: 66px;
+    width: 308px;
+    border-radius: 4px #8acfe5;
+    border: 2px solid;
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #8acfe5;
+    text-align: center;
+  }
+  /*----------------Block1-----------------*/
+
+  .block1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .nesa {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 10px;
+  }
+  .nesa img {
+    display: block;
+    position: relative;
+    width: 670px;
+    height: 460px;
+    right: 127px;
+  }
+
+  .divTxt1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .divTxt1 .h4 {
+    display: block;
+    width: 416px;
+    height: 106px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37.5px;
+  }
+
+  .text1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .text1 p {
+    position: relative;
+    display: block;
+    bottom: 300px;
+    left: 340px;
+    width: 416px;
+    height: 169px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .clickb {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  right: 230px;
+  bottom: 320px;
+  
+  
+    text-decoration: none;
+   
+  }
+  .clickb a {
+    position: relative;
+    display: block;
+    padding-top: 20px;
+    padding-left: 40px;
+    text-decoration: none;
+    box-sizing: border-box;
+   
+    height: 66px;
+    width: 308px;
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    background-color: #e3170a;
+    color: white;
+  }
+
+
+  .clicks {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    left: 100px;
+    bottom: 750px;
+    
+    
+      text-decoration: none;
+     
+    }
+    .clicks a {
+      position: relative;
+      display: block;
+      padding-top: 20px;
+      padding-left: 40px;
+      text-decoration: none;
+      box-sizing: border-box;
+     
+      height: 66px;
+      width: 308px;
+      border-radius: 4px;
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 28px;
+  
+      background-color: #e3170a;
+      color: white;
+    }
+
+
+
+  /*----------------Block2-----------------*/
+  .block2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .kelly {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    
+  }
+  .kelly img {
+    display: flex;
+    position: relative;
+    width: 670px;
+    height: 460px;
+    left: 670px;
+    bottom:275px ;
+  }
+
+  .divTxt2 {
+    display: flex;
+    justify-content: center;
+   
+    position: relative;
+    left:  100px;
+    bottom: 720px;
+  }
+  .divTxt2 .h4 {
+    display: block;
+    width: 450px;
+    height: 106px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37.5px;
+  }
+
+  .text2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .text2 p {
+    position: relative;
+    bottom: 750px;
+    left: 100px;
+    width: 416px;
+    height: 169px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+  }
+
+  .clicks .cickStory {
+    position: relative;
+    padding-top: 20px;
+    padding-left: 40px;
+    text-decoration: none;
+    box-sizing: border-box;
+    right: 600px;
+ 
+    height: 66px;
+    width: 308px;
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    background-color: #e3170a;
+    color: white;
+  }
+  /*----------------Info-----------------*/
+
+  .info {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-color: #011827;
+    height: 467px;
+
+    bottom: 600px;
+    color: white;
+    padding-top: 50px;
+  }
+  .infoHeading {
+    display: flex;
+    position: relative;
+    top: 70px;
+    right: 200px;
+    width: 229x;
+    height: 21px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .infoText {
+    display: block;
+    position: relative;
+    width: 416px;
+    height: 119px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    top: 70px;
+    right: 200px;
+  }
+  /*----------------Site map-----------------*/
+
+  .site ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    color: white;
+  }
+
+  .site li {
+    display: flex;
+    position: relative;
+    left: 50px;
+    top: 70px;
+  }
+
+  .site a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    height: 20x;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .site .siteMap {
+    position: relative;
+    bottom: 10px;
+    font-weight: bold;
+  }
+
+  .playOnline {
+    position: relative;
+    top: 20px;
+  }
+  .playOnsite {
+    position: relative;
+    top: 20px;
+  }
+  /*----------------follow us-----------------*/
+
+  .follow ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    color: white;
+  }
+
+  .follow li {
+    display: flex;
+    position: relative;
+    left: 150px;
+    top: 70px;
+  }
+
+  .follow a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    height: 20x;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .follow .followUs {
+    position: relative;
+    bottom: 10px;
+    font-weight: bold;
+  }
+}

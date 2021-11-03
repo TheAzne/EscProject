@@ -409,7 +409,6 @@
   .divTxt1 {
     display: flex;
     padding-left: 100px;
-    
   }
   .divTxt1 .h4 {
     width: 460px;
@@ -419,7 +418,7 @@
     font-weight: bold;
     font-size: 32px;
     line-height: 37.5px;
-    
+
     padding-top: 20px;
     margin-right: 0;
   }
@@ -431,8 +430,7 @@
 
   .text1 .pTxt1 {
     display: block;
-  
-   
+
     margin-right: 50px;
     width: 500px;
     height: 139px;
@@ -443,13 +441,11 @@
     font-size: 24px;
     line-height: 33px;
     margin-bottom: 0;
-    
   }
 
   .clickb {
     display: flex;
-    
- 
+
     margin-bottom: 100px;
     text-decoration: none;
     margin-left: 100px;
@@ -465,10 +461,9 @@
     box-sizing: border-box;
     height: 66px;
     width: 308px;
-    border-radius: 4px ;
+    border-radius: 4px;
     border: 2px solid;
-   
-    
+
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -484,7 +479,6 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-  
   }
 
   .kelly img {
@@ -496,7 +490,6 @@
   .divTxt2 {
     display: flex;
     padding-left: 100px;
-    
   }
   .divTxt2 .h4 {
     width: 460px;
@@ -506,7 +499,7 @@
     font-weight: bold;
     font-size: 32px;
     line-height: 37.5px;
-    
+
     padding-top: 20px;
     margin-right: 0;
   }
@@ -518,38 +511,29 @@
 
   .text2 .pTxt2 {
     display: block;
-  
-   
+
     margin-right: 40px;
     padding-top: 30px;
     width: 500px;
     height: 139px;
-    
+
     color: rgb(0, 0, 0);
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 33px;
     margin-bottom: 0;
-    
   }
 
   .clicks {
-   
-    
-
     display: flex;
-    
- 
+
     margin-bottom: 100px;
     text-decoration: none;
     margin-left: 100px;
-
-   
   }
 
   .clicks a {
-   
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -559,10 +543,9 @@
     box-sizing: border-box;
     height: 66px;
     width: 308px;
-    border-radius: 4px ;
+    border-radius: 4px;
     border: 2px solid;
-   
-    
+
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -570,17 +553,10 @@
     font-size: 24px;
     line-height: 28px;
     color: white;
-    
-
   }
-
-
- 
-    
 
   /*----------------Info-----------------*/
   .info {
-
     display: flex;
     flex-direction: column;
     background-color: #011827;
@@ -589,11 +565,10 @@
     color: white;
     padding-top: 50px;
     padding-left: 20px;
-
   }
   .infoHeading {
     display: flex;
-    
+
     width: 229x;
     height: 21px;
     font-family: "Roboto", sans-serif;
@@ -607,24 +582,19 @@
     display: block;
     width: 439px;
     height: 83px;
-    
+
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    
   }
   /*----------------Site map-----------------*/
-  .site{
+  .site {
     display: flex;
- 
-    
   }
-  
+
   .site ul {
-    
-    
     list-style-type: none;
     color: white;
     margin-left: -40px;
@@ -632,11 +602,8 @@
 
   .site li {
     display: flex;
-     width: 100px;
+    width: 100px;
     height: 21px;
-    
-
-
   }
 
   .site a {
@@ -651,7 +618,6 @@
   }
 
   .site .siteMap {
-   
     font-weight: bold;
   }
 
@@ -692,5 +658,66 @@
   .follow .followUs {
     bottom: 10px;
     font-weight: bold;
+  }
+  /*----------------Side menu----------------------  */
+
+  .openbtn {
+    display: flex;
+    margin: -4850px 0px 0px 650px;
+    background-color: #011827;
+  }
+
+  .closebtn {
+    display: flex;
+    position: relative;
+
+    left: 590px;
+    top: 8px;
+    width: 65px;
+    height: 40px;
+    justify-content: right;
+    background-color: #011827;
+    color: white;
+    padding: 10px 20px 10px 0px;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 20px;
+    width: 660px;
+    height: 4830px;
+    bottom: 60px;
+
+    background: #011827;
+    box-shadow: -40px -10px 30px 100px rgba(255, 255, 255, 0.5);
+  }
+
+  .menulist {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  align-items:center;
+   align-self: center;
+
+ 
+  }
+
+  .menulist a {
+    position: relative;
+    top: 200px;
+    padding: 80px 0px 00px  0px;
+    text-decoration: none;
+    width: 250px;
+    height: 42px;
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #ffffff;
   }
 }

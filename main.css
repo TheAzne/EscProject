@@ -812,7 +812,9 @@ bottom: 220px;
   }
 
 
-  .menu{
+
+
+  .wholeMenu{
     display: none;
   }
 }

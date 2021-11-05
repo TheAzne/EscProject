@@ -661,44 +661,53 @@
   }
   /*----------------Side menu----------------------  */
 
-  .openbtn {
+
+
+  .button-nav{
     display: flex;
     justify-content: center;
     margin: -4850px 0px 0px 650px;
+  }
+
+  .openbtn {
     background-color: #011827;
   }
 
  
+.wholeMenu{
+  display: flex;
+    justify-content: center;
+    
+}
 
-  .resp{
-    display: flex;
-   align-items: center;
-  }
 
   .menu {
     display: flex;
     justify-content: center;
     position: relative;
-    left: 20px;
-    width: 660px;
-    height: 4830px;
-    bottom: 60px;
-
+    left: 0px;
+    width: 670px;
+    height: 4800px;
+    bottom: 65px;
     background: #011827;
     box-shadow: -40px -10px 30px 100px rgba(255, 255, 255, 0.5);
+    animation: fade 0.400s ;
   }
-  .closebtn {
+
+  .button-div{
     display: flex;
     justify-content: center;
-    position: relative;
-    left: 590px;
-    top: 8px;
-    width: 65px;
-    height: 40px;
+    padding: 20px 20px 10px 620px;
+  }
+  .closebtn {
+
+  
+    width: 35px;
+    height: 35px;
     justify-content: right;
     background-color: #011827;
     color: white;
-    padding: 10px 20px 10px 0px;
+    
   }
 
   .menulist {
@@ -724,5 +733,16 @@
     line-height: 42px;
     text-align: center;
     color: #ffffff;
+  }
+
+
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
   }
 }

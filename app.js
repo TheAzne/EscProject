@@ -1,6 +1,7 @@
- btn1 = document.querySelector("#button1"),
-  btn2 = document.querySelector("#button2"),
-  menu = document.querySelector("#nav");
+
+    (btn1 = document.querySelector("#button1"));
+  (btn2 = document.querySelector("#button2"));
+  (menu = document.querySelector("#nav"));
 
 menu.style.display = "none";
 

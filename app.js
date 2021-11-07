@@ -1,4 +1,4 @@
-const btn1 = document.querySelector("#button1"),
+ btn1 = document.querySelector("#button1"),
   btn2 = document.querySelector("#button2"),
   menu = document.querySelector("#nav");
 

@@ -5,9 +5,5 @@
 
 menu.style.display = "none";
 
-btn1.addEventListener("click", (evt) => {
-  menu.style.display = "block";
-});
-btn2.addEventListener("click", (evt) => {
-  menu.style.display = "none";
-});
+btn1.addEventListener("click", (evt) => {menu.style.display = "block" });
+btn2.addEventListener("click", (evt) => {menu.style.display = "none";});
